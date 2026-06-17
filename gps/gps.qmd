@@ -1,0 +1,39 @@
+---
+title: GPS Reception
+theme: "journal"
+# https://quarto.org/docs/dashboards/theming.html
+highlight-style: github
+author: github.com/temataro
+toc:              true
+number-sections:  true
+format:
+  html:
+    code-fold:    true
+    code-tools:   true
+---
+
+
+## HOW THE F*CK DOES A GPS RECEIVER WORK?
+
+Modulate a 1575.42GHz sine carrier with a spreading sequence, then a data stream.
+Calculate a pseudorange according to both.
+```python
+#| code-fold: true
+import numpy as np
+import numpy.typing as npt
+import matplotlib.pyplot as plt
+```
+
+### Generating our Gold Code Sequences
+
+We won't be generating our own gold code sequences.
+```python
+# Look up table for PRNs 1-32
+
+
+```
+
+#### How do they correlate?
+
+#### Sub sample correlation.
+
